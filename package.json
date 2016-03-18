@@ -1,0 +1,15 @@
+{
+  "name": "uiuxbot",
+  "version": "1.0.0",
+  "description": "A dumb joke",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Petrovich",
+  "license": "MIT",
+  "dependencies": {
+    "node-bing-api": "^2.4.0",
+    "twitter": "^1.2.5"
+  }
+}
