@@ -123,7 +123,7 @@ function processImages(filePaths) {
     const transformPromises = filePaths.map((filePath, index) => {
       return new Promise((resolve, reject) => {
         gm(filePath)
-        .font('Impact', 50)
+        .font(config.font, 50)
         .fill('#ffffff')
         .stroke('#000000', 2)
         .drawText((sizeVals[index].width/2) - 25, 50, labels[index])
